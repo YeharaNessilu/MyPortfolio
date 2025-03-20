@@ -90,71 +90,77 @@ body{
     left: -10px;
 
 }
-.about{
-
-    height: 100vh;
+/* About Section */
+.about {
     display: flex;
-    padding: 0 10%;
-    gap: 15rem;
-
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 5% 10%;
+    min-height: 100vh;
+    text-align: center;
 }
 
-.aboutImg{
+/* Image Container */
+.aboutImg {
     width: 350px;
     height: 350px;
-    position: absolute;
     background-color: grey;
-    border-radius: 100%;
-    box-shadow: 10px 10px 91px 8px rgba(36,168,170,1);
-    top: 900px;
-
+    border-radius: 50%;
+    box-shadow: 0 0 40px rgba(36, 168, 170, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
-.aimg{
-    position: absolute;
-    bottom: 0;
-    left: -10px;
+.aboutImg img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
-.aboutContent{
-    position: absolute;
-    right: 200px;
-    bottom: -400px;
-    justify-content: space-between;
+/* Content */
+.aboutContent {
     max-width: 600px;
+    text-align: left;
 }
 
-.aboutContent h2{
-    border: 3px solid white;
-    width: 250px;
-    height: 80px;
-    text-align: center;
-    align-content: center;
-}
-
-
-
-.aboutContent h2{
+.aboutContent h2 {
     font-size: 40px;
-    font-weight: 700;
+    font-weight: bold;
+    border: 3px solid white;
+    display: inline-block;
+    padding: 10px 20px;
 }
 
-.aboutContent p{
-    font-size: 16px;
+.aboutContent p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px 0;
 }
 
-.aboutContent a >button{
-    width: 100px;
+/* Button */
+.aboutContent a > button {
+    width: 120px;
     height: 50px;
-    border-radius: 20px;
+    border-radius: 25px;
+    background-color: white;
     color: black;
-    align-content: center;
-
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease;
 }
 
-.aboutContent a >button:hover{
+.aboutContent a > button:hover {
     background-color: #24A8AA;
+    color: white;
 }
+
+
 
 .skill{
         position: relative;
@@ -471,6 +477,19 @@ footer{
         display: none;
     }
 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .aboutContent {
+        text-align: center;
+    }
 }
 
 
