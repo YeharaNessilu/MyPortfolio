@@ -21,7 +21,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
+    z-index: 1000;
 }
 
 .header>.name{
@@ -44,81 +44,52 @@ body{
 
 
 
-.home{
-    height: 100vh;
+.hero {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
-    padding: 0 10%;
-    gap: 15rem;
+    padding: 100px 20px;
+    text-align: center;
 }
 
-.homeContent{
-    max-width: 600px;
-}
-
-.homeContent h1{
+.homeContent h1 {
     font-size: 56px;
-    font-weight: 700;
 }
-
-.homeContent h5{
+.homeContent h5, .homeContent h4 {
     font-size: 25px;
-    font-weight: 700;
+}
+.homeContent p {
+    font-size: 18px;
 }
 
-.homeContent h4{
-    font-size: 30px;
-    font-weight: 700;
-}
-
-.homeContent p{
-    font-size: 16px;
-}
-
-.homeIcon{
-    position: absolute;
-    bottom: 230px;
-    width: 170px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.homeIcon a{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    background: transparent;
-    border: 2px solid #24A8AA;
-    border-radius: 50%;
-    font-size: 20px;
+.homeIcon a {
+    display: inline-block;
+    margin: 10px;
+    font-size: 24px;
     color: #24A8AA;
-    text-decoration: none;
 }
 
-.homeImg{
+.homeImg  {
     width: 350px;
     height: 350px;
-    position: absolute;
+    position: relative;
     background-color: #24A8AA;
     border-radius: 100%;
-    top: 250px;
-    right: 250px;
+    margin-top: 99px;
+    margin-right: 61px;
     box-shadow: 10px 10px 91px 8px rgba(36,168,170,1);
 
-    /*overflow: hidden;*/
 }
 
-
-.img{
+.homeImg img{
     position: absolute;
     bottom: 0;
     display: flex;
 
     left: -10px;
-}
 
+}
 .about{
 
     height: 100vh;
@@ -480,3 +451,31 @@ footer{
     margin-top: 200px;
     margin-left: 700px;
 }
+
+#button{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 1200px;
+    background-color: white;
+    color: black;
+    display: none;
+}
+
+@media all and (max-width: 700px){
+    #button{
+        display: block;
+    }
+
+    .nav{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
