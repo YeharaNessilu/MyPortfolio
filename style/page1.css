@@ -708,6 +708,14 @@ footer {
 
 }
 
+@media all and (max-width: 425px) {
+    .header>.name{
+        font-size: 18px!important;
+        color: #ff253a;
+    }
+
+}
+
 
 
 
