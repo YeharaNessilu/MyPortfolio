@@ -608,6 +608,31 @@ footer {
     }
 }
 
+@media all and (max-width: 500px) {
+
+
+
+    .homeContent>h1{
+        font-size: 35px;
+
+    }
+
+    .homeContent>h5{
+        font-size: 20px;
+
+    }
+
+    .homeContent>h1{
+        font-size: 25px;
+
+    }
+
+    .homeContent>h4{
+        font-size: 25px;
+
+    }
+}
+
 @media all and (max-width: 425px) {
 
     .hero {
@@ -625,6 +650,21 @@ footer {
 
     .homeContent>h1{
         font-size: 35px;
+
+    }
+
+    .homeContent>h5{
+        font-size: 20px;
+
+    }
+
+    .homeContent>h1{
+        font-size: 25px;
+
+    }
+
+    .homeContent>h4{
+        font-size: 25px;
 
     }
 
@@ -646,28 +686,31 @@ footer {
     }
 
     .homeContent>h5{
-        font-size: 25px;
+        font-size: 20px;
 
     }
 
     .homeContent>h1{
-        font-size: 30px;
+        font-size: 25px;
 
     }
 
-    .homeImg{
-        width: 300px;
-        height: 300px;
-        left: 30px;
+    .homeContent>h4 {
+        font-size: 25px;
+
+        .homeImg {
+            width: 300px;
+            height: 300px;
+            left: 30px;
+        }
+
+        .homeImg > img {
+            width: 300px;
+            height: 400px;
+            left: 10px;
+        }
+
     }
-
-    .homeImg>img{
-        width: 300px;
-        height: 400px;
-        left: 10px;
-    }
-
-
 
 }
 
@@ -683,12 +726,17 @@ footer {
     }
 
     .homeContent>h5{
-        font-size: 25px;
+        font-size: 20px;
 
     }
 
     .homeContent>h1{
-        font-size: 30px;
+        font-size: 25px;
+
+    }
+
+    .homeContent>h4{
+        font-size: 25px;
 
     }
 
