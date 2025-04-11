@@ -508,8 +508,12 @@ footer {
         text-align: center;
     }
 
+
+
     .homeImg{
         align-content: center;
+
+        left: 50px;
     }
 }
 
