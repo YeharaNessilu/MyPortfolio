@@ -496,8 +496,25 @@ footer {
 
 }
 
+@media all and (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
 
-@media (max-width: 768px) {
+    }
+
+    .homeContent {
+        text-align: center;
+    }
+
+    .homeImg{
+        align-content: center;
+    }
+}
+
+
+@media all and (max-width: 768px) {
     .about {
         flex-direction: column;
         text-align: center;
@@ -510,7 +527,7 @@ footer {
 }
 
 
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
     .skill h1 {
         font-size: 30px;
         padding: 10px 30px;
@@ -526,7 +543,10 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
+
+
+
     h1 {
         font-size: 30px;
         padding: 10px 30px;
@@ -545,7 +565,7 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
     h1 {
         font-size: 30px;
         padding: 10px 30px;
@@ -564,7 +584,7 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
     .contact-container {
         flex-direction: column;
         text-align: center;
@@ -583,6 +603,108 @@ footer {
         width: 90%;
     }
 }
+
+@media all and (max-width: 425px) {
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .homeContent {
+        text-align: center;
+    }
+
+    .homeImg{
+        align-content: center;
+    }
+
+    .homeContent>h1{
+        font-size: 35px;
+
+    }
+
+
+
+
+
+}
+
+@media all and (max-width: 375px) {
+
+
+    .homeContent {
+        text-align: center;
+    }
+
+    .homeImg{
+        align-content: center;
+    }
+
+    .homeContent>h5{
+        font-size: 25px;
+
+    }
+
+    .homeContent>h1{
+        font-size: 30px;
+
+    }
+
+    .homeImg{
+        width: 300px;
+        height: 300px;
+        left: 45px;
+    }
+
+    .homeImg>img{
+        width: 300px;
+        height: 400px;
+        left: 10px;
+    }
+
+
+
+}
+
+@media all and (max-width: 320px) {
+
+
+    .homeContent {
+        text-align: center;
+    }
+
+    .homeImg{
+        align-content: center;
+    }
+
+    .homeContent>h5{
+        font-size: 25px;
+
+    }
+
+    .homeContent>h1{
+        font-size: 30px;
+
+    }
+
+    .homeImg{
+        width: 300px;
+        height: 300px;
+        left: 45px;
+    }
+
+    .homeImg>img{
+        width: 300px;
+        height: 400px;
+        left: 10px;
+    }
+
+
+
+}
+
+
 
 
 
