@@ -188,6 +188,12 @@ body{
     margin-top: 30px;
 }
 
+.section-title2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
 
 .skillImg, .skillImg2 {
     display: flex;
@@ -733,7 +739,7 @@ footer {
 
 @media all and (max-width: 768px) {
     .skill h1 {
-        font-size: 30px;
+        font-size: 35px;
         padding: 10px 30px;
     }
 
@@ -746,6 +752,40 @@ footer {
         height: 50px;
     }
 }
+
+@media all and (max-width: 425px) {
+    .skill h1 {
+        font-size: 30px;
+        padding: 10px 30px;
+    }
+
+    .skillImg{
+        margin-left: 50px;
+    }
+
+    .skillImg2{
+        margin-left: 50px;
+    }
+
+
+}
+
+@media all and (max-width: 390px) {
+
+    .skillImg{
+        margin-left: 50px;
+        flex-direction: column;
+    }
+
+    .skillImg2{
+        margin-left: 50px;
+        flex-direction: column;
+
+    }
+
+}
+
+
 
 @media all and (max-width: 768px) {
 
