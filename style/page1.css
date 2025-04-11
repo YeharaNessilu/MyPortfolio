@@ -802,6 +802,7 @@ footer {
 }
 
 
+/*Service responsive*/
 
 @media all and (max-width: 768px) {
 
@@ -824,6 +825,27 @@ footer {
         font-size: 16px;
     }
 }
+
+@media all and (max-width: 425px) {
+
+    #service{
+        margin-left: 50px;
+        font-size: 30px;
+    }
+
+
+}
+
+@media all and (max-width: 375px) {
+
+    #service{
+        margin-left: 50px;
+        font-size: 28px;
+    }
+}
+
+
+/*My works responsive*/
 
 @media all and (max-width: 768px) {
     h1 {
