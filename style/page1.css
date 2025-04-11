@@ -772,6 +772,11 @@ footer {
 
 @media all and (max-width: 390px) {
 
+    .skill h1 {
+
+        margin-left: 60px;
+    }
+
     .skillImg{
         margin-left: 50px;
         flex-direction: column;
@@ -781,6 +786,17 @@ footer {
         margin-left: 50px;
         flex-direction: column;
 
+    }
+
+
+
+}
+
+@media all and (max-width: 320px) {
+
+    .skill h1 {
+
+        margin-left: 60px;
     }
 
 }
