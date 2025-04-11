@@ -772,6 +772,14 @@ footer {
 
 }
 
+@media all and (max-width: 313px) {
+
+    .homeContent>h4{
+        font-size: 23px;
+
+    }
+}
+
 
 
 
