@@ -485,6 +485,9 @@ footer {
     display: none;
 }
 
+
+/*Header responsive*/
+
 @media all and (max-width: 834px){
     #button{
         display: block;
@@ -496,117 +499,23 @@ footer {
 
 }
 
-@media all and (max-width: 768px) {
-    .hero {
-        flex-direction: column;
-        text-align: center;
-        gap: 2rem;
+@media all and (max-width: 500px) {
+    .header>.name{
+        font-size: 18px!important;
 
     }
 
-    .homeContent {
-        text-align: center;
-    }
-
-
-
-    .homeImg{
-        align-content: center;
-
-        left: 50px;
-    }
 }
 
+@media all and (max-width: 425px) {
+    .header>.name{
+        font-size: 18px!important;
 
-@media all and (max-width: 768px) {
-    .about {
-        flex-direction: column;
-        text-align: center;
-        gap: 2rem;
     }
 
-    .aboutContent {
-        text-align: center;
-    }
 }
 
-
-@media all and (max-width: 768px) {
-    .skill h1 {
-        font-size: 30px;
-        padding: 10px 30px;
-    }
-
-    .section-title {
-        font-size: 20px;
-    }
-
-    .skillImg img, .skillImg2 img {
-        width: 50px;
-        height: 50px;
-    }
-}
-
-@media all and (max-width: 768px) {
-
-
-
-    h1 {
-        font-size: 30px;
-        padding: 10px 30px;
-    }
-
-    .service-card {
-        padding: 15px;
-    }
-
-    .service-card h5 {
-        font-size: 20px;
-    }
-
-    .service-card p {
-        font-size: 16px;
-    }
-}
-
-@media all and (max-width: 768px) {
-    h1 {
-        font-size: 30px;
-        padding: 10px 30px;
-    }
-
-    .work-card {
-        padding: 15px;
-    }
-
-    .work-card h3 {
-        font-size: 18px;
-    }
-
-    .work-card p {
-        font-size: 14px;
-    }
-}
-
-@media all and (max-width: 768px) {
-    .contact-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .message-box {
-        width: 90%;
-        text-align: center;
-    }
-
-    .contact-info {
-        justify-content: center;
-    }
-
-    .contact-form {
-        width: 90%;
-    }
-}
+/*Hero responsive*/
 
 @media all and (max-width: 500px) {
 
@@ -756,21 +665,7 @@ footer {
 
 }
 
-@media all and (max-width: 500px) {
-    .header>.name{
-        font-size: 18px!important;
 
-    }
-
-}
-
-@media all and (max-width: 425px) {
-    .header>.name{
-        font-size: 18px!important;
-
-    }
-
-}
 
 @media all and (max-width: 313px) {
 
@@ -779,6 +674,141 @@ footer {
 
     }
 }
+
+@media all and (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+
+    }
+
+    .homeContent {
+        text-align: center;
+    }
+
+
+
+    .homeImg{
+        align-content: center;
+
+        left: 50px;
+    }
+}
+
+/*About responsive*/
+
+
+@media all and (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .aboutContent {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .aboutContent>h2{
+        font-size: 35px;
+    }
+
+
+}
+
+@media all and (max-width: 375px) {
+    .aboutContent>h2{
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+/*Skill Responsive*/
+
+@media all and (max-width: 768px) {
+    .skill h1 {
+        font-size: 30px;
+        padding: 10px 30px;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    .skillImg img, .skillImg2 img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media all and (max-width: 768px) {
+
+
+
+    h1 {
+        font-size: 30px;
+        padding: 10px 30px;
+    }
+
+    .service-card {
+        padding: 15px;
+    }
+
+    .service-card h5 {
+        font-size: 20px;
+    }
+
+    .service-card p {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+        padding: 10px 30px;
+    }
+
+    .work-card {
+        padding: 15px;
+    }
+
+    .work-card h3 {
+        font-size: 18px;
+    }
+
+    .work-card p {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .message-box {
+        width: 90%;
+        text-align: center;
+    }
+
+    .contact-info {
+        justify-content: center;
+    }
+
+    .contact-form {
+        width: 90%;
+    }
+}
+
+
 
 
 
