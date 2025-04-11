@@ -866,6 +866,22 @@ footer {
     }
 }
 
+@media all and (max-width: 425px) {
+    #myworks{
+        font-size: 30px;
+        margin-left: 50px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    #myworks{
+        font-size: 25px;
+
+    }
+}
+
+/*Contact Responsive*/
+
 @media all and (max-width: 768px) {
     .contact-container {
         flex-direction: column;
@@ -884,7 +900,66 @@ footer {
     .contact-form {
         width: 90%;
     }
+
+    .message-box{
+        margin-left: 50px;
+    }
 }
+
+@media all and (max-width: 430px) {
+    .contact-form{
+        width: 350px;
+    }
+}
+
+@media all and (max-width: 425px) {
+    #contact{
+        font-size: 30px;
+        margin-left: 50px;
+    }
+
+
+}
+
+@media all and (max-width: 375px) {
+    #contact{
+
+        margin-left: 50px;
+    }
+
+    .message-box{
+        margin-left: 50px;
+    }
+
+    .message-box h1{
+        font-size: 25px;
+    }
+
+    .contact-form{
+        width: 400px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    #contact{
+        font-size: 25px;
+        margin-left: 50px;
+    }
+
+    .message-box{
+        margin-left: 50px;
+    }
+
+    .message-box h1{
+        font-size: 20px;
+    }
+
+    .contact-form{
+        width: 300px;
+    }
+}
+
+
 
 
 
