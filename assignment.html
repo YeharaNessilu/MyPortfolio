@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Assignments</title>
+
+    <!-- Boxicons CDN for GitHub icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: black;
+            color: #333;
+        }
+
+        .heading {
+            font-size: 3rem;
+            text-align: center;
+            margin: 2rem 1rem;
+            color: white;
+        }
+
+        .heading span {
+            color: #24A8AA;
+        }
+
+        .assignments-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .assignments-box {
+            padding: 2rem;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: 0.3s ease;
+        }
+
+        .assignments-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        .assignments-box h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #1d3557;
+        }
+
+        .assignments-box p {
+            font-size: 1rem;
+            line-height: 1.6;
+            padding-left: 1.8rem;
+            position: relative;
+        }
+
+        .assignments-box p::before {
+            content: '';
+            position: absolute;
+            top: 0.6rem;
+            left: 0;
+            width: 0.75rem;
+            height: 0.75rem;
+            background: #2a9d8f;
+            border-radius: 50%;
+        }
+
+        .icon {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 1.5rem;
+        }
+
+        .assignments-box .icon a {
+            background: #e0e0e0;
+            border-radius: 50%;
+            padding: 0.8rem;
+            transition: background 0.3s;
+        }
+
+        .assignments-box .icon a i {
+            font-size: 1.5rem;
+            color: #2a9d8f;
+        }
+
+        .assignments-box .icon a:hover {
+            background: #2a9d8f;
+        }
+
+        .assignments-box .icon a:hover i {
+            color: #fff;
+            transform: rotate(-20deg);
+        }
+
+        @media screen and (max-width: 480px) {
+            .heading {
+                font-size: 2.2rem;
+            }
+
+            .assignments-box h3 {
+                font-size: 1.4rem;
+            }
+
+            .assignments-box p {
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<section class="assignments" id="assignments">
+    <h2 class="heading">My <span>Assignments</span></h2>
+
+    <div class="assignments-container">
+        <div class="assignments-box">
+            <h3>Assignment 01</h3>
+            <p>This is a personal portfolio website that shows my details, skills, projects, and experience. I used design steps like goal setting, sitemap, wireframe, and mock-up. The site is also responsive for all devices.</p>
+            <div class="icon">
+                <a href="https://github.com/Shavindi0609/Assignment-01" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+
+        <div class="assignments-box">
+            <h3>Assignment 02</h3>
+            <p>This task is to create my portfolio website using HTML. I used proper HTML element groups for each section in the mock-up.</p>
+            <div class="icon">
+                <a href="https://github.com/Shavindi0609/Assignment-02" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+
+        <div class="assignments-box">
+            <h3>Assignment 03</h3>
+            <p>In this assignment, I used different CSS positioning techniques to implement four designs.</p>
+            <div class="icon">
+                <a href="https://github.com/Shavindi0609/Assignment-03" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+
+        <div class="assignments-box">
+            <h3>Assignment 04</h3>
+            <p>Coming Soon or Add Your Content Here.</p>
+            <div class="icon">
+                <a href="#" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
